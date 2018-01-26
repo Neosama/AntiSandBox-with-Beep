@@ -2,7 +2,7 @@
 #include <Windows.h>
 
 // Sleep fonction with Beep
-bool timing_Beep()
+bool time_Beep()
 {
 	// Delays 301 sec (5min | 301000 ms)
 	// If return is TRUE = OK delays respected | FALSE = Delays bypass
@@ -24,7 +24,7 @@ bool timing_Beep()
 
 int main()
 {
-	if(timing_Beep())
+	if(time_Beep())
 		printf("\nOK Delays respected");
 	else
 		printf("\nDelay bypass !");
